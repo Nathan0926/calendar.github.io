@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working Calendar</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar {
+
+    display: grid;
+    margin: 20px;
+}
+
+
+
+table {
+    justify-self: center;
+    width:40%;
+    height:25rem;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th, td:hover{
+    background-color: rgba(72, 72, 72, 0.582);
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tfoot {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.color{
+    background-color: grey;
+}
+.color:hover{
+    background-color: rgba(72, 72, 72, 0.582);
+
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Calendar</h1>
+    </header>
+
+    <div class="calendar">
+        <table>
+            <thead>
+                <tr>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>T</th>
+                    <th>W</th>
+                    <th>TH</th>
+                    <th>F</th>
+                    <th>S</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="color">1</td>
+                </tr>
+                <tr>
+                    <td class="color">2</td>
+                    <td class="color">3</td>
+                    <td class="color">4</td>
+                    <td class="color">5</td>
+                    <td class="color">6</td>
+                    <td class="color">7</td>
+                    <td class="color">8</td>
+                </tr>
+                <tr>
+                    <td class="color">9</td>
+                    <td class="color">10</td>
+                    <td class="color">11</td>
+                    <td class="color">12</td>
+                    <td class="color">13</td>
+                    <td class="color">14</td>
+                    <td class="color">15</td>
+                </tr>
+                <tr>
+                    <td class="color">16</td>
+                    <td class="color">17</td>
+                    <td class="color">18</td>
+                    <td class="color">19</td>
+                    <td class="color">20</td>
+                    <td class="color">21</td>
+                    <td class="color">22</td>
+                </tr>
+                <tr>
+                    <td class="color">23</td>
+                    <td class="color">24</td>
+                    <td class="color">25</td>
+                    <td class="color">26</td>
+                    <td class="color">27</td>
+                    <td class="color">28</td>
+                    <td class="color">29</td>
+                </tr>
+                <tr>
+                    <td class="color">30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>© 2023. All rights reserved.</p>
+    </footer>
+</body>
+</html>
